@@ -1,0 +1,37 @@
+
+body{
+        background-color:rgb(255, 56, 56);
+    }
+    .box{
+        border: 2px solid;
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+        text-align: center;
+        font-size: 30px;
+        float: right;
+        font-size: 25px;
+        top:10px;
+
+    }
+    #about_text{
+        border: 3px solid;
+        width: 350px;
+        height: 100px;
+        background-color: rgb(255, 115, 115);
+
+    }
+h1{
+font-family: "press Start 2P";    
+border: 2px solid;
+background-color: rgb(255, 115, 115);
+width: 160px;
+margin: 10px;
+}
+img{
+    margin: 10px;
+}
+h4{
+   font-size: 25px;
+    text-decoration: underline;
+}
