@@ -1,7 +1,8 @@
 
 body{
-        background-color:rgb(255, 56, 56);
-    }
+    background-image: url("images/Anime Town.WEBP");
+    background-repeat: no-repeat;
+    background-size: cover;  
     .box{
         border: 2px solid;
         height: 100px;
