@@ -1,7 +1,8 @@
 
-body{
-        background-color:rgb(255, 56, 56);
-    }
+body{      
+    background-image: linear-gradient(rgb(199, 69, 30),rgb(36, 17, 211));
+
+}    
     .box{
         border: 2px solid;
         height: 100px;
