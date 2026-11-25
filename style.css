@@ -1,6 +1,6 @@
 
 body{      
-    background-image: linear-gradient(rgb(199, 69, 30),rgb(36, 17, 211));
+    background-image: linear-gradient(rgb(104, 218, 29),rgb(36, 17, 211));
     background-repeat: no-repeat;
     background-attachment:fixed;
     color:black;
@@ -16,7 +16,15 @@ body{
         font-size: 25px;
         top:10px;
         color:black;
+        position: absolute;
+        animation: movedown 5s linear infinite;
 
+    }
+
+    @keyframes movedown {
+        0%{top: 0;right: 0;}
+
+        100%{top: 100%;right: 0%}
     }
     #about_text{
         border: 3px solid;
@@ -39,4 +47,51 @@ img{
 h4{
    font-size: 25px;
     text-decoration: underline;
+}
+
+.button{
+    margin: 10px;
+    flex-direction: column;
+}
+
+.picture{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: auto;
+}
+
+.picture img{
+    width: 50%;
+    margin: 1vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.picture p{
+    width: 25%;
+    text-align: center;
+    font-size: 2.5vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self: center;
+}
+
+@media only screen and (max-width: 600px){
+    .picture{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .picture{
+        flex-direction: row;
+        
+    }
+
+@media only screen and (min-width: 1024px){
+    .picture{
+        flex-direction: column;
+    }
+}
 }
